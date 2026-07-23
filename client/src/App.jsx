@@ -199,7 +199,7 @@ function App() {
 
               <div
                 key={item._id}
-                className="todo flex w-1/2 justify-between items-start my-3"
+                className="todo flex md:w-1/2 sm:w-3/4 w-11/12 justify-between items-start my-3"
               >
                 <div className="flex gap-3 flex-1 min-w-0">
                   <input
