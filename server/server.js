@@ -14,8 +14,10 @@ app.use(express.json());
 app.use(cors({
     origin: [
         "http://localhost:5173",
-        "https://your-vercel-app.vercel.app"
-    ]
+        "https://todo-app-rho-one-15.vercel.app"
+    ],
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true
 }));
 
 connectDB();
